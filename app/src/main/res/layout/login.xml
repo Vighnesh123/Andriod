@@ -1,0 +1,152 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="500dp" >
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#e8e8e7"
+        android:orientation="vertical">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/examplebg"
+        android:layout_gravity="center"
+        android:layout_weight="0.91">
+
+
+  <!--          <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/linkedin"
+                android:layout_marginLeft="10dp"/>-->
+
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+
+
+  <!--          <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:gravity="right"
+                android:orientation="horizontal" >
+
+                <ImageView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/select"
+
+                    />
+
+            </LinearLayout>-->
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+                <ImageView android:layout_width="60dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/logo"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 9mints"
+                    android:textSize="35dp"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    />
+
+            </LinearLayout>
+
+        <TextView
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:text="Social Network for Parents"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true" />
+
+            <EditText android:layout_width="300dp"
+                android:id="@+id/email"
+                android:layout_height="40dp"
+                android:hint="Email Address"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"/>
+
+        <EditText android:layout_width="300dp"
+            android:id="@+id/passWord"
+            android:layout_height="40dp"
+            android:password="true"
+            android:hint=" Password"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="13dp"
+            android:editable="true"/>
+  <!--          <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="mobile"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="address"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="category"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>-->
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textSize="20dp" />
+
+            <Button android:layout_width="300dp"
+                android:id="@+id/submit"
+                android:layout_height="38dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="submit"
+                android:textColor="#fff"
+                android:background="@drawable/btn"/>
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
